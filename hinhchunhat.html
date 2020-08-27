@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Reactangle = function (width, height) {
+        this.width = width;
+        this.height = height;
+
+        this.getP = function () {
+            return 2*(Reactangle.width + this.height);
+        }
+
+        this.getWidth = function () {
+            return this.width;
+        }
+
+    }
+    let hcn1 = new Reactangle(20, 30);
+
+</script>
+</body>
+</html>
